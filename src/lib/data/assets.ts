@@ -82,6 +82,7 @@ const Assets = {
 	DFKI: a('dfki.svg'),
 	ROOT: a('root.png'),
 	Uppsala: a('uppsala.svg'),
+	Bremen: a('bremen.svg'),
 };
 
 export default Assets;
