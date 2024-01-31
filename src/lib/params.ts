@@ -31,50 +31,26 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.GitHub;
 		case Platform.Linkedin:
 			return Icons.LinkedIn;
-		case Platform.StackOverflow:
-			return Icons.StackOverflow;
-		case Platform.Facebook:
-			return Icons.Facebook;
 		case Platform.Email:
 			return Icons.Email;
-		case Platform.Twitter:
-			return Icons.Twitter;
-		case Platform.Youtube:
-			return Icons.Youtube;
 	}
 };
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Tim',
+	lastName: 'LITTAU',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Due to my education in Science and the Projects I worked on, I have seen a vast variety of data. \n To deal with this data I am able to apply a collection of statistical methods and algorithms I studied throughout my career. \n This also provided me with the skill to design algorithms myself, in case of specific applications that need necessary adjustments. \n In the spare time I have I am constantly challenging myself to try new technologies to improve and expand my Software Development skills. \n These technologies often helped me in my work as a Data Scientist. \n One example is the development of a Web Application to visualize and communicate the data in an interactive and dynamic way.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/tmlittau' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://www.linkedin.com/in/tim-littau-a63510251/'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
-		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
+			link: 'projects@tmlittau.com'
 		}
 	]
 };
