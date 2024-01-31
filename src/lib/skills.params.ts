@@ -13,6 +13,7 @@ import sql from './md/sql.md?raw';
 import postgres from './md/postgres.md?raw';
 import django from './md/django.md?raw';
 import pytorch from './md/pytorch.md?raw';
+import tensorflow from './md/tensorflow.md?raw';
 import pandas from './md/pandas.md?raw';
 import numpy from './md/numpy.md?raw';
 import celery from './md/celery.md?raw';
@@ -60,7 +61,7 @@ const MY_SKILLS = [
 		slug: 'sql',
 		color: 'blue',
 		description: sql,
-		logo: Assets.Unknown,
+		logo: Assets.SQL,
 		name: 'SQL'
 	}),
 	s({
@@ -81,9 +82,16 @@ const MY_SKILLS = [
 		slug: 'pytorch',
 		color: 'red',
 		description: pytorch,
-		logo: Assets.Unknown,
+		logo: Assets.PyTorch,
 		name: 'Pytorch'
 	}), 
+	s({
+		slug: 'tensorflow',
+		color: 'red',
+		description: tensorflow,
+		logo: Assets.Tensorflow,
+		name: 'Tensorflow'
+	}),
 	s({
 		slug: 'pandas',
 		color: 'red',

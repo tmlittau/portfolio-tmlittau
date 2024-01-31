@@ -70,7 +70,18 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Tensorflow: a('tensorflow.svg'),
+	SQL: a('sql.png'),
+	PyTorch: a('pytorch.svg'),
+	DSTL: a('dstl.png'),
+	trilitec: a('trilitec.png'),
+	LHIND: a('lhind.png'),
+	QT: a('qt.svg'),
+	ROS: a('ros.svg'),
+	DFKI: a('dfki.svg'),
+	ROOT: a('root.png'),
+	Uppsala: a('uppsala.svg'),
 };
 
 export default Assets;

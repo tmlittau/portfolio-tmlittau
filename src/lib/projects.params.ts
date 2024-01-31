@@ -4,6 +4,18 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		// add projects
+		/*
+		Image Labelling Tool (UKE)
+		VPN Server (Private)
+		ML Training Cluster (Private)
+		Accounting Tool (Private)
+		Character Sheet (Private)
+		IMU Analyzer (DFKI)
+		Model Viewer (Uppsala University)
+		Bayesian Neural Network (Uppsala University)
+		Game Engine project (Private) WIP
+		*/ 
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
