@@ -17,6 +17,9 @@ import tensorflow from './md/tensorflow.md?raw';
 import pandas from './md/pandas.md?raw';
 import numpy from './md/numpy.md?raw';
 import celery from './md/celery.md?raw';
+import root from './md/root.md?raw';
+import qt from './md/qt.md?raw';
+import ros from './md/ros.md?raw';
 import css from './md/css.md?raw';
 import html from './md/html.md?raw';
 import tailwind from './md/tailwind.md?raw';
@@ -112,6 +115,27 @@ const MY_SKILLS = [
 		description: celery,
 		logo: Assets.Celery,
 		name: 'Celery'
+	}),
+	s({
+		slug: 'root',
+		color: 'red',
+		description: root,
+		logo: Assets.ROOT,
+		name: 'Root'
+	}),
+	s({
+		slug: 'qt',
+		color: 'blue',
+		description: qt,
+		logo: Assets.QT,
+		name: 'Qt'
+	}),
+	s({
+		slug: 'ros',
+		color: 'blue',
+		description: ros,
+		logo: Assets.ROS,
+		name: 'ROS'
 	}),
 	s({
 		slug: 'css',
