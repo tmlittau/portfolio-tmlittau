@@ -41,7 +41,7 @@ export const HOME: HomePageParams = {
 	name: 'Tim',
 	lastName: 'LITTAU',
 	description:
-		'Due to my education in Science and the Projects I worked on, I have seen a vast variety of data. \n To deal with this data I am able to apply a collection of statistical methods and algorithms I studied throughout my career. \n This also provided me with the skill to design algorithms myself, in case of specific applications that need necessary adjustments. \n In the spare time I have I am constantly challenging myself to try new technologies to improve and expand my Software Development skills. \n These technologies often helped me in my work as a Data Scientist. \n One example is the development of a Web Application to visualize and communicate the data in an interactive and dynamic way.',
+		'Data Scientist by education, Software Developer by nature.',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/tmlittau' },
 		{
