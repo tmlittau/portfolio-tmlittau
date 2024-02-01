@@ -88,7 +88,7 @@ const Assets = {
 	OpenGL: a('opengl.svg'),
 	GameDevTV: a('gamedevtv.png'),
 	UnrealEngine: a('unreal.svg'),
-	Blender: a('blender.png'),
+	Blender: a('blender.png')
 };
 
 export default Assets;
