@@ -86,6 +86,9 @@ const Assets = {
 	Bremen: a('bremen.png'),
 	UKE: a('uke.svg'),
 	OpenGL: a('opengl.svg'),
+	GameDevTV: a('gamedevtv.png'),
+	UnrealEngine: a('unreal.svg'),
+	Blender: a('blender.png'),
 };
 
 export default Assets;

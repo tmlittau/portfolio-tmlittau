@@ -28,6 +28,8 @@ import html from './md/html.md?raw';
 import tailwind from './md/tailwind.md?raw';
 import docker from './md/docker.md?raw';
 import redis from './md/redis.md?raw';
+import unreal from './md/unreal.md?raw';
+import blender from './md/blender.md?raw';
 
 const s = (skill: Skill) => skill;
 
@@ -223,6 +225,20 @@ const MY_SKILLS = [
 		description: redis,
 		logo: Assets.Redis,
 		name: 'Redis'
+	}),
+	s({
+		slug: 'unreal',
+		color: 'blue',
+		description: unreal,
+		logo: Assets.UnrealEngine,
+		name: 'Unreal Engine'
+	}),
+	s({
+		slug: 'blender',
+		color: 'orange',
+		description: blender,
+		logo: Assets.Blender,
+		name: 'Blender'
 	})
 ];
 

@@ -3,31 +3,31 @@ import { getSkills } from './skills.params';
 import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
-	// add projects
-	/*
-	Image Labelling Tool (UKE)
-	Accounting Tool (Private)
-	Character Sheet (Private)
-	IMU Analyzer (DFKI)
-	Model Viewer (Uppsala University)
-	Bayesian Neural Network (Uppsala University)
-	Game Engine project (Private) WIP
-	*/ 
 	{
-		slug: 'image-labelling-tool',
-		color: 'blue',
+		slug: 'character-sheet',
+		color: 'green',
 		description:
-			'Image Labelling Tool developed in Golang using Electron for the GUI. The tool is used to label images for machine learning purposes.',
-		shortDescription: 'Image Labelling Tool developed in Golang using Electron for the GUI.',
-		links: [],
-		logo: Assets.UKE,
-		name: 'Image Labelling Tool',
+			'Character Sheet developed in Python using Django. The tool is used to manage the accounting of a small business.',
+		shortDescription: 'Character Sheet developed in Python using Django.',
+		links: [{ to: 'https://github.com/tmlittau/character-sheet', label: 'GitHub' }],
+		logo: Assets.DSTL,
+		name: 'Character Sheet',
 		period: {
-			from: new Date(2021, 9, 1),
-			to: new Date(2022, 8, 1)
+			from: new Date(2022, 9, 1),
+			to: new Date(2023, 0, 1)
 		},
-		skills: getSkills('golang', 'electron', 'typescript', 'css', 'html'),
-		type: 'Data Analysis Tool for Labelling Images'
+		skills: getSkills('python', 'django', 'sql', 'svelte', 'javascript', 'css', 'html'),
+		type: 'Web based Character Sheet for Pen and Paper Games',
+		screenshots: [
+			{
+				label: 'Character Creator when first logging in',
+				src: 'img/cs_project/charcreator_demo.jpg'
+			},
+			{
+				label: 'Character Sheet with all the information',
+				src: 'img/cs_project/charactersheet_demo.jpg'
+			}
+		]
 	},
 	{
 		slug: 'accounting-tool',
@@ -68,30 +68,52 @@ const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: 'character-sheet',
-		color: 'green',
+		slug: 'game-engine',
+		color: 'blue',
 		description:
-			'Character Sheet developed in Python using Django. The tool is used to manage the accounting of a small business.',
-		shortDescription: 'Character Sheet developed in Python using Django.',
-		links: [{ to: 'https://github.com/tmlittau/character-sheet', label: 'GitHub' }],
-		logo: Assets.DSTL,
-		name: 'Character Sheet',
+			'Game Engine developed in C++ using OpenGL. The tool is used to create 3D games.',
+		shortDescription: 'Game Engine developed in C++ using OpenGL.',
+		links: [],
+		logo: Assets.Unknown,
+		name: 'Game Engine',
 		period: {
-			from: new Date(2022, 9, 1),
-			to: new Date(2023, 0, 1)
+			from: new Date(2024, 0, 1)
 		},
-		skills: getSkills('python', 'django', 'sql', 'svelte', 'javascript', 'css', 'html'),
-		type: 'Web based Character Sheet for Pen and Paper Games',
-		screenshots: [
-			{
-				label: 'Character Creator when first logging in',
-				src: 'img/cs_project/charcreator_demo.jpg'
-			},
-			{
-				label: 'Character Sheet with all the information',
-				src: 'img/cs_project/charactersheet_demo.jpg'
-			}
-		]
+		skills: getSkills('cpp', 'opengl'),
+		type: 'Game Engine'
+	},
+	{
+		slug: 'game-jam-2022',
+		color: 'green',
+		description: 'GameDev.tv GameJam 2022, a game jam with the theme "The End is the Beginning". The game is developed in Unreal Engine using C++.',
+		shortDescription: 'GameDev.tv GameJam 2022',
+		links: [
+			{ to: 'https://physikar.itch.io/flyfe', label: 'itch.io'},
+			{ to: 'https://www.youtube.com/watch?v=AKiOL-J0yak', label: 'YouTube'}
+		],
+		logo: Assets.GameDevTV,
+		name: 'GameDev.tv GameJam 2022',
+		period: {
+			from: new Date(2022, 4, 20),
+			to: new Date(2022, 4, 31)
+		},
+		skills: getSkills('cpp', 'unreal', 'blender'),
+	}
+	{
+		slug: 'image-labelling-tool',
+		color: 'blue',
+		description:
+			'Image Labelling Tool developed in Golang using Electron for the GUI. The tool is used to label images for machine learning purposes.',
+		shortDescription: 'Image Labelling Tool developed in Golang using Electron for the GUI.',
+		links: [],
+		logo: Assets.UKE,
+		name: 'Image Labelling Tool',
+		period: {
+			from: new Date(2021, 9, 1),
+			to: new Date(2022, 8, 1)
+		},
+		skills: getSkills('golang', 'electron', 'typescript', 'css', 'html'),
+		type: 'Data Analysis Tool for Labelling Images'
 	},
 	{
 		slug: 'imu-analyzer',
@@ -152,48 +174,6 @@ const MY_PROJECTS: Array<Project> = [
 		},
 		skills: getSkills('python', 'tensorflow', 'root'),
 		type: 'Data Analysis Script'
-	},
-	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
-		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
-		screenshots: [
-			{
-				label: 'screen 1',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '2',
-				src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '3',
-				src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '4',
-				src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '5',
-				src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '6',
-				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			}
-		]
 	}
 ];
 
