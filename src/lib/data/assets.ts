@@ -84,6 +84,7 @@ const Assets = {
 	Uppsala: a('uppsala.svg'),
 	Bremen: a('bremen.png'),
 	UKE: a('uke.svg'),
+	OpenGL: a('opengl.svg'),
 };
 
 export default Assets;

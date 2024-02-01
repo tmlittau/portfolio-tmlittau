@@ -21,6 +21,7 @@ import root from './md/root.md?raw';
 import qt from './md/qt.md?raw';
 import ros from './md/ros.md?raw';
 import electron from './md/electron.md?raw';
+import opengl from './md/opengl.md?raw';
 import css from './md/css.md?raw';
 import html from './md/html.md?raw';
 import tailwind from './md/tailwind.md?raw';
@@ -144,6 +145,13 @@ const MY_SKILLS = [
 		description: electron,
 		logo: Assets.Electron,
 		name: 'Electron'
+	}),
+	s({
+		slug: 'opengl',
+		color: 'blue',
+		description: opengl,
+		logo: Assets.OpenGL,
+		name: 'OpenGL'
 	}),
 	s({
 		slug: 'css',
