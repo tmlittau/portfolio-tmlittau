@@ -20,6 +20,7 @@ import celery from './md/celery.md?raw';
 import root from './md/root.md?raw';
 import qt from './md/qt.md?raw';
 import ros from './md/ros.md?raw';
+import electron from './md/electron.md?raw';
 import css from './md/css.md?raw';
 import html from './md/html.md?raw';
 import tailwind from './md/tailwind.md?raw';
@@ -136,6 +137,13 @@ const MY_SKILLS = [
 		description: ros,
 		logo: Assets.ROS,
 		name: 'ROS'
+	}),
+	s({
+		slug: 'electron',
+		color: 'blue',
+		description: electron,
+		logo: Assets.Electron,
+		name: 'Electron'
 	}),
 	s({
 		slug: 'css',

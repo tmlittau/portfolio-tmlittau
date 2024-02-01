@@ -76,13 +76,14 @@ const Assets = {
 	PyTorch: a('pytorch.svg'),
 	DSTL: a('dstl.png'),
 	trilitec: a('trilitec.png'),
-	LHIND: a('lhind.png'),
+	LHIND: a('lhind.svg'),
 	QT: a('qt.svg'),
 	ROS: a('ros.svg'),
 	DFKI: a('dfki.svg'),
 	ROOT: a('root.png'),
 	Uppsala: a('uppsala.svg'),
 	Bremen: a('bremen.svg'),
+	UKE: a('uke.svg'),
 };
 
 export default Assets;

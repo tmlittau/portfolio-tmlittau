@@ -3,33 +3,111 @@ import { getSkills } from './skills.params';
 import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
+	// add projects
+	/*
+	Image Labelling Tool (UKE)
+	Accounting Tool (Private)
+	Character Sheet (Private)
+	IMU Analyzer (DFKI)
+	Model Viewer (Uppsala University)
+	Bayesian Neural Network (Uppsala University)
+	Game Engine project (Private) WIP
+	*/ 
 	{
-		// add projects
-		/*
-		Image Labelling Tool (UKE)
-		VPN Server (Private)
-		ML Training Cluster (Private)
-		Accounting Tool (Private)
-		Character Sheet (Private)
-		IMU Analyzer (DFKI)
-		Model Viewer (Uppsala University)
-		Bayesian Neural Network (Uppsala University)
-		Game Engine project (Private) WIP
-		*/ 
-		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		slug: 'image-labelling-tool',
+		color: '#ff3e00',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+			'Image Labelling Tool developed in Golang using Electron for the GUI. The tool is used to label images for machine learning purposes.',
+		shortDescription: 'Image Labelling Tool developed in Golang using Electron for the GUI.',
+		links: [],
+		logo: Assets.UKE,
+		name: 'Image Labelling Tool',
 		period: {
-			from: new Date()
+			from: new Date(2021, 9, 1),
+			to: new Date(2022, 8, 1)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('golang', 'electron', 'typescript', 'css', 'html'),
+		type: 'Data Analysis Tool for Labelling Images'
+	},
+	{
+		slug: 'accounting-tool',
+		color: '#ff3e00',
+		description:
+			'Accounting Tool developed in Python using Django. The tool is used to manage the accounting of a small business.',
+		shortDescription: 'Accounting Tool developed in Python using Django.',
+		links: [{ to: 'https://github.com/tmlittau/accounting_backend', label: 'GitHub' }, { to: 'https://github.com/tmlittau/accounting_frontend', label: 'GitHub' }],
+		logo: Assets.DSTL,
+		name: 'Accounting Tool',
+		period: {
+			from: new Date(2022, 9, 1),
+			to: new Date(2023, 0, 1)
+		},
+		skills: getSkills('python', 'django', 'sql', 'postgres', 'docker', 'redis'),
+		type: 'Web based Accounting Tool for a small business'
+	},
+	{
+		slug: 'character-sheet',
+		color: '#ff3e00',
+		description:
+			'Character Sheet developed in Python using Django. The tool is used to manage the accounting of a small business.',
+		shortDescription: 'Character Sheet developed in Python using Django.',
+		links: [{ to: 'https://github.com/tmlittau/character-sheet', label: 'GitHub' }],
+		logo: Assets.DSTL,
+		name: 'Character Sheet',
+		period: {
+			from: new Date(2022, 9, 1),
+			to: new Date(2023, 0, 1)
+		},
+		skills: getSkills('python', 'django', 'sql', 'svelte', 'javascript', 'css', 'html'),
+		type: 'Web based Character Sheet for Pen and Paper Games'
+	},
+	{
+		slug: 'imu-analyzer',
+		color: '#ff3e00',
+		description:
+			'IMU Analyzer developed in Python using PyQT. The tool is used to analyze IMU data.',
+		shortDescription: 'IMU Analyzer developed in Python using PyQT.',
+		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
+		logo: Assets.DFKI,
+		name: 'IMU Analyzer',
+		period: {
+			from: new Date(2017, 1, 1),
+			to: new Date(2017, 4, 1)
+		},
+		skills: getSkills('python', 'qt', 'ros'),
+		type: 'Analysis Tool for IMU Data'
+	},
+	{
+		slug: 'model-viewer',
+		color: '#ff3e00',
+		description:
+			'Model Viewer developed in C++ using OpenGL. The tool is used to view 3D models.',
+		shortDescription: 'Model Viewer developed in C++ using OpenGL.',
+		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
+		logo: Assets.Uppsala,
+		name: 'Model Viewer',
+		period: {
+			from: new Date(2018, 0, 15),
+			to: new Date(2018, 5, 1)
+		},
+		skills: getSkills('cpp', 'opengl'),
+		type: 'Computer Graphics Demo Project'
+	},
+	{
+		slug: 'bayesian-neural-network',
+		color: '#ff3e00',
+		description:
+			'Bayesian Neural Network developed in Python using PyTorch. The tool is used to analyze IMU data.',
+		shortDescription: 'Bayesian Neural Network developed in Python using PyTorch.',
+		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
+		logo: Assets.Uppsala,
+		name: 'Bayesian Neural Network',
+		period: {
+			from: new Date(2018, 10, 1),
+			to: new Date(2019, 0, 5)
+		},
+		skills: getSkills('python', 'tensorflow', 'root'),
+		type: 'Data Analysis Script'
 	},
 	{
 		slug: 'slick-portfolio-svelte',

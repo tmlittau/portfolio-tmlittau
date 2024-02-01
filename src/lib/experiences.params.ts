@@ -6,17 +6,17 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'freelance software-developer',
 		company: 'Self-employed',
-		description: 'API and Web development for customers.',
+		description: 'Data Science and Web development for customers.',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Home',
-		period: { from: new Date(2022, 0, 10) },
+		period: { from: new Date(2022, 9, 1) },
 		skills: getSkills('angular', 'ts', 'python', 'css', 'html', 'js', 'django', 'sql', 'postgres', 'docker', 'redis', 'celery'),
-		name: 'Freelance Software Developer',
+		name: 'Freelance Data Scientist / Software Developer',
 		color: 'blue',
 		links: [],
 		logo: Assets.DSTL,
-		shortDescription: 'API and Web development for customers.'
+		shortDescription: 'Data Science and Web development for customers.'
 	},
 	{
 		slug: 'data-scientist',
@@ -25,7 +25,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.SelfEmployed,
 		type: 'Data Science',
 		location: 'Home',
-		period: { from: new Date(2021, 0, 10) },
+		period: { from: new Date(2021, 0, 10), to: new Date(2022, 8, 1)},
 		skills: getSkills('python', 'sql', 'postgres', 'docker', 'redis', 'celery', 'pandas', 'pytorch', 'numpy', 'golang'),
 		name: 'Data Scientist',
 		color: 'green',
