@@ -15,7 +15,7 @@ const MY_PROJECTS: Array<Project> = [
 	*/ 
 	{
 		slug: 'image-labelling-tool',
-		color: '#ff3e00',
+		color: 'blue',
 		description:
 			'Image Labelling Tool developed in Golang using Electron for the GUI. The tool is used to label images for machine learning purposes.',
 		shortDescription: 'Image Labelling Tool developed in Golang using Electron for the GUI.',
@@ -31,7 +31,7 @@ const MY_PROJECTS: Array<Project> = [
 	},
 	{
 		slug: 'accounting-tool',
-		color: '#ff3e00',
+		color: 'green',
 		description:
 			'Accounting Tool developed in Python using Django. The tool is used to manage the accounting of a small business.',
 		shortDescription: 'Accounting Tool developed in Python using Django.',
@@ -43,11 +43,33 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2023, 0, 1)
 		},
 		skills: getSkills('python', 'django', 'sql', 'postgres', 'docker', 'redis'),
-		type: 'Web based Accounting Tool for a small business'
+		type: 'Web based Accounting Tool for a small business',
+		screenshots: [
+			{
+				label: 'Tax Form to calculate yearly taxes',
+				src: 'img/at_project/eur_demo.jpg'
+			},
+			{
+				label: 'VAT Declaration Form to calculate quarterly/monthly VAT',
+				src: 'img/at_project/ustva_demo.jpg'
+			},
+			{
+				label: 'Support for different Users',
+				src: 'img/at_project/user_management.jpg'
+			},
+			{
+				label: 'New Invoice Entry',
+				src: 'img/at_project/new_invoice.jpg'
+			},
+			{
+				label: 'New Customer Entry',
+				src: 'img/at_project/new_customer_entry.jpg'
+			}
+		]
 	},
 	{
 		slug: 'character-sheet',
-		color: '#ff3e00',
+		color: 'green',
 		description:
 			'Character Sheet developed in Python using Django. The tool is used to manage the accounting of a small business.',
 		shortDescription: 'Character Sheet developed in Python using Django.',
@@ -59,11 +81,21 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2023, 0, 1)
 		},
 		skills: getSkills('python', 'django', 'sql', 'svelte', 'javascript', 'css', 'html'),
-		type: 'Web based Character Sheet for Pen and Paper Games'
+		type: 'Web based Character Sheet for Pen and Paper Games',
+		screenshots: [
+			{
+				label: 'Character Creator when first logging in',
+				src: 'img/cs_project/charcreator_demo.jpg'
+			},
+			{
+				label: 'Character Sheet with all the information',
+				src: 'img/cs_project/charactersheet_demo.jpg'
+			}
+		]
 	},
 	{
 		slug: 'imu-analyzer',
-		color: '#ff3e00',
+		color: 'blue',
 		description:
 			'IMU Analyzer developed in Python using PyQT. The tool is used to analyze IMU data.',
 		shortDescription: 'IMU Analyzer developed in Python using PyQT.',
@@ -75,7 +107,13 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2017, 4, 1)
 		},
 		skills: getSkills('python', 'qt', 'ros'),
-		type: 'Analysis Tool for IMU Data'
+		type: 'Analysis Tool for IMU Data',
+		screenshots: [
+			{
+				'label': 'Example of the GUI',
+				'src': 'https://raw.githubusercontent.com/tmlittau/legacy_portfolio/main/IMU_Analyzer/IMU_Analyzer.png'
+			}
+		]
 	},
 	{
 		slug: 'model-viewer',
@@ -91,11 +129,17 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2018, 5, 1)
 		},
 		skills: getSkills('cpp', 'opengl'),
-		type: 'Computer Graphics Demo Project'
+		type: 'Computer Graphics Demo Project',
+		screenshots: [
+			{
+				'label': 'Example of the Model Viewer',
+				'src': 'https://github.com/tmlittau/legacy_portfolio/raw/main/Model_Viewer/Littau_pres.mov'
+			}
+		]
 	},
 	{
 		slug: 'bayesian-neural-network',
-		color: '#ff3e00',
+		color: 'red',
 		description:
 			'Bayesian Neural Network developed in Python using PyTorch. The tool is used to analyze IMU data.',
 		shortDescription: 'Bayesian Neural Network developed in Python using PyTorch.',
