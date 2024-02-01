@@ -20,6 +20,7 @@ import celery from './md/celery.md?raw';
 import root from './md/root.md?raw';
 import qt from './md/qt.md?raw';
 import ros from './md/ros.md?raw';
+import opencv from './md/opencv.md?raw';
 import electron from './md/electron.md?raw';
 import opengl from './md/opengl.md?raw';
 import css from './md/css.md?raw';
@@ -92,7 +93,7 @@ const MY_SKILLS = [
 	}), 
 	s({
 		slug: 'tensorflow',
-		color: 'red',
+		color: 'orange',
 		description: tensorflow,
 		logo: Assets.Tensorflow,
 		name: 'Tensorflow'
@@ -106,7 +107,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'numpy',
-		color: 'red',
+		color: 'blue',
 		description: numpy,
 		logo: Assets.Numpy,
 		name: 'Numpy'
@@ -120,14 +121,14 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'root',
-		color: 'red',
+		color: 'blue',
 		description: root,
 		logo: Assets.ROOT,
 		name: 'Root'
 	}),
 	s({
 		slug: 'qt',
-		color: 'blue',
+		color: 'green',
 		description: qt,
 		logo: Assets.QT,
 		name: 'Qt'
@@ -138,6 +139,13 @@ const MY_SKILLS = [
 		description: ros,
 		logo: Assets.ROS,
 		name: 'ROS'
+	}),
+	s({
+		slug: 'opencv',
+		color: 'blue',
+		description: opencv,
+		logo: Assets.OpenCV,
+		name: 'OpenCV'
 	}),
 	s({
 		slug: 'electron',

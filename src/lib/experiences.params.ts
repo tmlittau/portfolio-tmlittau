@@ -9,11 +9,11 @@ const MY_EXPERIENCES: Array<Experience> = [
 		description: 'Data Science and Web development for customers.',
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
-		location: 'Home',
+		location: 'Hamburg, Germany / Bremen, Germany',
 		period: { from: new Date(2022, 9, 1) },
 		skills: getSkills('angular', 'ts', 'python', 'css', 'html', 'js', 'django', 'sql', 'postgres', 'docker', 'redis', 'celery'),
 		name: 'Freelance Data Scientist / Software Developer',
-		color: 'blue',
+		color: 'green',
 		links: [],
 		logo: Assets.DSTL,
 		shortDescription: 'Data Science and Web development for customers.'
@@ -24,13 +24,13 @@ const MY_EXPERIENCES: Array<Experience> = [
 		description: 'Creating awesome tools for developers.',
 		contract: ContractType.SelfEmployed,
 		type: 'Data Science',
-		location: 'Home',
+		location: 'Hamburg, Germany',
 		period: { from: new Date(2021, 0, 10), to: new Date(2022, 8, 1)},
 		skills: getSkills('python', 'sql', 'postgres', 'docker', 'redis', 'celery', 'pandas', 'pytorch', 'numpy', 'golang'),
 		name: 'Data Scientist',
-		color: 'green',
+		color: 'blue',
 		links: [],
-		logo: Assets.DSTL,
+		logo: Assets.UKE,
 		shortDescription: 'Data Analytics and Machine Learning Services for customers.'
 	},
 	{
@@ -43,7 +43,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		period: { from: new Date(2020, 2, 10), to: new Date(2021, 8, 1) },
 		skills: getSkills('python', 'sql', 'postgres', 'docker', 'pandas', 'pytorch', 'numpy', 'clang', 'cpp'),
 		name: 'Co-Founder',
-		color: 'green',
+		color: 'blue',
 		links: [],
 		logo: Assets.trilitec,
 		shortDescription: 'Leading the Data Science and Software Development department at trilitec Startup.'
@@ -73,7 +73,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		period: { from: new Date(2019, 1, 10), to: new Date(2019, 6, 1) },
 		skills: getSkills('python', 'tensorflow', 'qt', 'ros', 'cpp', 'clang'),
 		name: 'Intern',
-		color: 'green',
+		color: 'blue',
 		links: [],
 		logo: Assets.DFKI,
 		shortDescription: 'Developing a new generation of autonomous driving software.'

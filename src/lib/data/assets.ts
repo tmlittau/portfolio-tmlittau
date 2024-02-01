@@ -74,6 +74,7 @@ const Assets = {
 	Tensorflow: a('tensorflow.svg'),
 	SQL: a('sql.png'),
 	PyTorch: a('pytorch.svg'),
+	OpenCV: a('opencv.svg'),
 	DSTL: a('dstl.png'),
 	trilitec: a('trilitec.png'),
 	LHIND: a('lhind.svg'),
