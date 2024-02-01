@@ -2,12 +2,20 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import type { Project } from './types';
 
+import accounting_tool from './md/projects/accounting_tool.md?raw';
+import character_sheet from './md/projects/character_sheet.md?raw';
+import game_engine from './md/projects/game_engine.md?raw';
+import flyfe from './md/projects/flyfe.md?raw';
+import image_labelling from './md/projects/image_labelling.md?raw';
+import imu_analyzer from './md/projects/imu_analyzer.md?raw';
+import model_viewer from './md/projects/model_viewer.md?raw';
+import bnn from './md/projects/bnn.md?raw';
+
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'character-sheet',
 		color: 'green',
-		description:
-			'Character Sheet developed in Python using Django. The tool is used to manage the accounting of a small business.',
+		description: character_sheet,
 		shortDescription: 'Character Sheet developed in Python using Django.',
 		links: [{ to: 'https://github.com/tmlittau/character-sheet', label: 'GitHub' }],
 		logo: Assets.DSTL,
@@ -21,19 +29,18 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Character Creator when first logging in',
-				src: 'img/cs_project/charcreator_demo.jpg'
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/cs_project/charcreator_demo.jpg?raw=true'
 			},
 			{
 				label: 'Character Sheet with all the information',
-				src: 'img/cs_project/charactersheet_demo.jpg'
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/cs_project/charactersheet_demo.jpg?raw=true'
 			}
 		]
 	},
 	{
 		slug: 'accounting-tool',
 		color: 'green',
-		description:
-			'Accounting Tool developed in Python using Django. The tool is used to manage the accounting of a small business.',
+		description: accounting_tool,
 		shortDescription: 'Accounting Tool developed in Python using Django.',
 		links: [{ to: 'https://github.com/tmlittau/accounting_backend', label: 'GitHub' }, { to: 'https://github.com/tmlittau/accounting_frontend', label: 'GitHub' }],
 		logo: Assets.DSTL,
@@ -47,31 +54,30 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Tax Form to calculate yearly taxes',
-				src: 'img/at_project/eur_demo.jpg'
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/at_project/eur_demo.jpg?raw=true'
 			},
 			{
 				label: 'VAT Declaration Form to calculate quarterly/monthly VAT',
-				src: 'img/at_project/ustva_demo.jpg'
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/at_project/ustva_demo.jpg?raw=true'
 			},
 			{
 				label: 'Support for different Users',
-				src: 'img/at_project/user_management.jpg'
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/at_project/user_management.jpg?raw=true'
 			},
 			{
 				label: 'New Invoice Entry',
-				src: 'img/at_project/new_invoice.jpg'
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/at_project/new_invoice.jpg?raw=true'
 			},
 			{
 				label: 'New Customer Entry',
-				src: 'img/at_project/new_customer_entry.jpg'
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/at_project/new_customer_entry.jpg?raw=true'
 			}
 		]
 	},
 	{
 		slug: 'game-engine',
 		color: 'blue',
-		description:
-			'Game Engine developed in C++ using OpenGL. The tool is used to create 3D games.',
+		description: game_engine,
 		shortDescription: 'Game Engine developed in C++ using OpenGL.',
 		links: [],
 		logo: Assets.Unknown,
@@ -85,25 +91,25 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'game-jam-2022',
 		color: 'green',
-		description: 'GameDev.tv GameJam 2022, a game jam with the theme "The End is the Beginning". The game is developed in Unreal Engine using C++.',
+		description: flyfe,
 		shortDescription: 'GameDev.tv GameJam 2022',
 		links: [
 			{ to: 'https://physikar.itch.io/flyfe', label: 'itch.io'},
 			{ to: 'https://www.youtube.com/watch?v=AKiOL-J0yak', label: 'YouTube'}
 		],
 		logo: Assets.GameDevTV,
-		name: 'GameDev.tv GameJam 2022',
+		name: 'GameDev.tv Game Jam 2022',
 		period: {
 			from: new Date(2022, 4, 20),
 			to: new Date(2022, 4, 31)
 		},
 		skills: getSkills('cpp', 'unreal', 'blender'),
-	}
+		type: 'Game Development',
+	},
 	{
 		slug: 'image-labelling-tool',
 		color: 'blue',
-		description:
-			'Image Labelling Tool developed in Golang using Electron for the GUI. The tool is used to label images for machine learning purposes.',
+		description: image_labelling,
 		shortDescription: 'Image Labelling Tool developed in Golang using Electron for the GUI.',
 		links: [],
 		logo: Assets.UKE,
@@ -118,8 +124,7 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'imu-analyzer',
 		color: 'blue',
-		description:
-			'IMU Analyzer developed in Python using PyQT. The tool is used to analyze IMU data.',
+		description: imu_analyzer,
 		shortDescription: 'IMU Analyzer developed in Python using PyQT.',
 		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
 		logo: Assets.DFKI,
@@ -140,8 +145,7 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'model-viewer',
 		color: '#ff3e00',
-		description:
-			'Model Viewer developed in C++ using OpenGL. The tool is used to view 3D models.',
+		description: model_viewer,
 		shortDescription: 'Model Viewer developed in C++ using OpenGL.',
 		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
 		logo: Assets.Uppsala,
@@ -162,8 +166,7 @@ const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'bayesian-neural-network',
 		color: 'red',
-		description:
-			'Bayesian Neural Network developed in Python using PyTorch. The tool is used to analyze IMU data.',
+		description: bnn,
 		shortDescription: 'Bayesian Neural Network developed in Python using PyTorch.',
 		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
 		logo: Assets.Uppsala,
