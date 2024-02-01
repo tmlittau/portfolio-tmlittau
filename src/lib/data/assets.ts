@@ -82,7 +82,7 @@ const Assets = {
 	DFKI: a('dfki.svg'),
 	ROOT: a('root.png'),
 	Uppsala: a('uppsala.svg'),
-	Bremen: a('bremen.svg'),
+	Bremen: a('bremen.png'),
 	UKE: a('uke.svg'),
 };
 
