@@ -7,7 +7,8 @@ export enum Platform {
 	Linkedin = 'linkedin',
 	Email = 'email',
 	Facebook = 'facebook',
-	Youtube = 'youtube'
+	Youtube = 'youtube',
+	Freelancermap = 'freelancermap',
 }
 
 export type Icon = `i-${string}-${string}`;

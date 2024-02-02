@@ -51,6 +51,10 @@ export const HOME: HomePageParams = {
 		{
 			platform: Platform.Email,
 			link: 'projects@tmlittau.com'
+		},
+		{
+			platform: Platform.Freelancermap,
+			link: 'https://www.freelancermap.de/profil/tim-littau'
 		}
 	]
 };
