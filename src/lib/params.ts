@@ -33,6 +33,8 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.LinkedIn;
 		case Platform.Email:
 			return Icons.Email;
+		case Platform.Freelancermap:
+			return Icons.Job;
 	}
 };
 
