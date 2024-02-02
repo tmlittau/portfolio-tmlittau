@@ -105,6 +105,28 @@ const MY_PROJECTS: Array<Project> = [
 		},
 		skills: getSkills('cpp', 'unreal', 'blender'),
 		type: 'Game Development',
+		screenshots: [
+			{
+				label: 'Main Menu',
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/flyfe_project/0.png?raw=true'
+			},
+			{
+				label: 'Obstacles to limit progression',
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/flyfe_project/1.png?raw=true'
+			},
+			{
+				label: 'Player Base with "nesting grounds"',
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/flyfe_project/2.png?raw=true'
+			},
+			{
+				label: 'Ore to collect and build with',
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/flyfe_project/3.png?raw=true'
+			},
+			{
+				label: 'Fiber plants to collect and build with',
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/flyfe_project/4.png?raw=true'
+			}
+		]
 	},
 	{
 		slug: 'image-labelling-tool',
@@ -119,7 +141,13 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2022, 8, 1)
 		},
 		skills: getSkills('golang', 'electron', 'typescript', 'css', 'html'),
-		type: 'Data Analysis Tool for Labelling Images'
+		type: 'Data Analysis Tool for Labelling Images',
+		screenshots: [
+			{
+				label: 'Example of the GUI',
+				src: 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/lt_project/roi_labelling.jpg?raw=true'
+			}
+		]
 	},
 	{
 		slug: 'imu-analyzer',
@@ -159,7 +187,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				'label': 'Example of the Model Viewer',
-				'src': 'https://github.com/tmlittau/legacy_portfolio/raw/main/Model_Viewer/Littau_pres.mov'
+				'src': 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/mv_project/model_viewer_demo.jpg?raw=true'
 			}
 		]
 	},
@@ -176,7 +204,13 @@ const MY_PROJECTS: Array<Project> = [
 			to: new Date(2019, 0, 5)
 		},
 		skills: getSkills('python', 'tensorflow', 'root'),
-		type: 'Data Analysis Script'
+		type: 'Data Analysis Script',
+		screenshots: [
+			{
+				'label': 'Project Poster',
+				'src': 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/bnn_project/Project09_poster.pdf?raw=true'
+			}
+		]
 	}
 ];
 
