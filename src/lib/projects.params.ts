@@ -42,7 +42,7 @@ const MY_PROJECTS: Array<Project> = [
 		color: 'green',
 		description: accounting_tool,
 		shortDescription: 'Accounting Tool developed in Python using Django.',
-		links: [{ to: 'https://github.com/tmlittau/accounting_backend', label: 'GitHub' }, { to: 'https://github.com/tmlittau/accounting_frontend', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/tmlittau/accounting_backend', label: 'GitHub Backend' }, { to: 'https://github.com/tmlittau/accounting_frontend', label: 'GitHub Frontend' }],
 		logo: Assets.DSTL,
 		name: 'Accounting Tool',
 		period: {
