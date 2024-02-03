@@ -2,11 +2,18 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import { ContractType, type Experience } from './types';
 
+import freelance from './md/experiences/freelance.md?raw';
+import uke from './md/experiences/uke.md?raw';
+import trilitec from './md/experiences/trilitec.md?raw';
+import lhind from './md/experiences/lhind.md?raw';
+import dfki from './md/experiences/dfki.md?raw';
+import jacek from './md/experiences/jacek.md?raw';
+
 const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'freelance software-developer',
 		company: 'Self-employed',
-		description: 'Data Science and Web development for customers.',
+		description: freelance,
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Hamburg, Germany / Bremen, Germany',
@@ -21,7 +28,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'data-scientist',
 		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		description: uke,
 		contract: ContractType.SelfEmployed,
 		type: 'Data Science',
 		location: 'Hamburg, Germany',
@@ -36,7 +43,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'co-founder',
 		company: 'trilitec GmbH',
-		description: 'Leading the Data Science and Software Development department at trilitec Startup. Combning millimeter wave radar and machine learning to create a new generation of sensors.',
+		description: trilitec,
 		contract: ContractType.FullTime,
 		type: 'Data Science',
 		location: 'Osterholz-Scharmbeck, Germany',
@@ -51,7 +58,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'technology-consultant',
 		company: 'Lufthansa Industry Solutions GmbH',
-		description: 'Consulting customers in the field of software development and data science.',
+		description: lhind,
 		contract: ContractType.FullTime,
 		type: 'Data Science',
 		location: 'Hamburg, Germany',
@@ -66,7 +73,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'intern',
 		company: 'DFKI GmbH',
-		description: 'Developing a new generation of autonomous driving software.',
+		description: dfki,
 		contract: ContractType.Internship,
 		type: 'Research Internship',
 		location: 'Bremen, Germany',
@@ -81,7 +88,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'student-researcher',
 		company: 'Institute for nuclear physics at Uppsala University',
-		description: 'Development and implementation of a Bayesian Neural Network for the analysis of nuclear physics data.',
+		description: jacek,
 		contract: ContractType.StudentJob,
 		type: 'Research Internship',
 		location: 'Uppsala, Sweden',

@@ -158,8 +158,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.DFKI,
 		name: 'IMU Analyzer',
 		period: {
-			from: new Date(2017, 1, 1),
-			to: new Date(2017, 4, 1)
+			from: new Date(2019, 1, 1),
+			to: new Date(2019, 4, 1)
 		},
 		skills: getSkills('python', 'qt', 'ros'),
 		type: 'Analysis Tool for IMU Data',
@@ -167,27 +167,6 @@ const MY_PROJECTS: Array<Project> = [
 			{
 				'label': 'Example of the GUI',
 				'src': 'https://raw.githubusercontent.com/tmlittau/legacy_portfolio/main/IMU_Analyzer/IMU_Analyzer.png'
-			}
-		]
-	},
-	{
-		slug: 'model-viewer',
-		color: '#ff3e00',
-		description: model_viewer,
-		shortDescription: 'Model Viewer developed in C++ using OpenGL.',
-		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
-		logo: Assets.Uppsala,
-		name: 'Model Viewer',
-		period: {
-			from: new Date(2018, 0, 15),
-			to: new Date(2018, 5, 1)
-		},
-		skills: getSkills('cpp', 'opengl'),
-		type: 'Computer Graphics Demo Project',
-		screenshots: [
-			{
-				'label': 'Example of the Model Viewer',
-				'src': 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/mv_project/model_viewer_demo.jpg?raw=true'
 			}
 		]
 	},
@@ -209,6 +188,27 @@ const MY_PROJECTS: Array<Project> = [
 			{
 				'label': 'Project Poster',
 				'src': 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/bnn_project/Project09_poster.pdf?raw=true'
+			}
+		]
+	},
+	{
+		slug: 'model-viewer',
+		color: '#ff3e00',
+		description: model_viewer,
+		shortDescription: 'Model Viewer developed in C++ using OpenGL.',
+		links: [{ to: 'https://github.com/tmlittau/legacy_portfolio', label: 'GitHub' }],
+		logo: Assets.Uppsala,
+		name: 'Model Viewer',
+		period: {
+			from: new Date(2018, 0, 15),
+			to: new Date(2018, 5, 1)
+		},
+		skills: getSkills('cpp', 'opengl'),
+		type: 'Computer Graphics Demo Project',
+		screenshots: [
+			{
+				'label': 'Example of the Model Viewer',
+				'src': 'https://github.com/tmlittau/tmlittau-portfolio/blob/master/static/img/mv_project/model_viewer_demo.jpg?raw=true'
 			}
 		]
 	}
