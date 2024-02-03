@@ -2,12 +2,12 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import { ContractType, type Experience } from './types';
 
-import freelance from './md/experiences/freelance.md?raw';
-import uke from './md/experiences/uke.md?raw';
-import trilitec from './md/experiences/trilitec.md?raw';
-import lhind from './md/experiences/lhind.md?raw';
-import dfki from './md/experiences/dfki.md?raw';
-import jacek from './md/experiences/jacek.md?raw';
+import freelance from './md/experience/freelance.md?raw';
+import uke from './md/experience/uke.md?raw';
+import trilitec from './md/experience/trilitec.md?raw';
+import lhind from './md/experience/lhind.md?raw';
+import dfki from './md/experience/dfki.md?raw';
+import jacek from './md/experience/jacek.md?raw';
 
 const MY_EXPERIENCES: Array<Experience> = [
 	{
