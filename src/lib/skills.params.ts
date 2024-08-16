@@ -9,7 +9,7 @@ import golang from './md/golang.md?raw';
 import javascript from './md/javascript.md?raw';
 import typescript from './md/typescript.md?raw';
 import python from './md/python.md?raw';
-import julia from '.md/julia.md?raw';
+import julia from './md/julia.md?raw';
 import sql from './md/sql.md?raw';
 import postgres from './md/postgres.md?raw';
 import django from './md/django.md?raw';
