@@ -18,7 +18,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Doctoral Research',
 		location: 'Delft, Netherlands',
-		period: { from: new Date(2024, 8, 15) },
+		period: { from: new Date(2024, 7, 15) },
 		skills: getSkills('python', 'sql', 'postgres', 'qiskit'),
 		name: 'PhD candidate',
 		color: 'blue',
