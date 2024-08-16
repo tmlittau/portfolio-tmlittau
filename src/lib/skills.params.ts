@@ -9,6 +9,7 @@ import golang from './md/golang.md?raw';
 import javascript from './md/javascript.md?raw';
 import typescript from './md/typescript.md?raw';
 import python from './md/python.md?raw';
+import julia from '.md/julia.md?raw';
 import sql from './md/sql.md?raw';
 import postgres from './md/postgres.md?raw';
 import django from './md/django.md?raw';
@@ -30,6 +31,7 @@ import docker from './md/docker.md?raw';
 import redis from './md/redis.md?raw';
 import unreal from './md/unreal.md?raw';
 import blender from './md/blender.md?raw';
+import qiskit from './md/qiskit.md?raw';
 
 const s = (skill: Skill) => skill;
 
@@ -64,6 +66,13 @@ const MY_SKILLS = [
 		description: golang,
 		logo: Assets.Go,
 		name: 'Golang'
+	}),
+	s({
+		slug: 'julia',
+		color: 'blue',
+		description: julia,
+		logo: Assets.Julia,
+		name: 'Julia'
 	}),
 	s({
 		slug: 'sql',
@@ -239,6 +248,13 @@ const MY_SKILLS = [
 		description: blender,
 		logo: Assets.Blender,
 		name: 'Blender'
+	}),
+	s({
+		slug: 'qiskit',
+		color: 'blue',
+		description: qiskit,
+		logo: Assets.Qiskit,
+		name: 'Qiskit'
 	})
 ];
 

@@ -90,7 +90,8 @@ const Assets = {
 	GameDevTV: a('gamedevtv.png'),
 	UnrealEngine: a('unreal.svg'),
 	Blender: a('blender.png'),
-	Qiskit: a('Qiskit-logo.png')
+	Qiskit: a('Qiskit-logo.png'),
+	Julia: a('Julia_Logo.png')
 };
 
 export default Assets;
