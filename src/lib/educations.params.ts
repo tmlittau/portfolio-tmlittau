@@ -3,6 +3,18 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
+		degree: 'Ph.D.',
+		description: 'PhD in Quantum Data Management, focusing on optimising classical simulation of quantum systems using database technologies.',
+		location: 'Netherlands',
+		logo: Assets.Delft,
+		name: '',
+		organization: 'TU Delft',
+		period: { from: new Date(2024, 8, 15)},
+		shortDescription: '',
+		slug: 'phd-quantum-data-management',
+		subjects: ['Qiskit', 'classical simulation of quantum systems', 'YAO', 'Data Management', 'Scientific Research', 'Quantum Computing']
+	},
+	{
 		degree: 'Master of Science in Computational Science',
 		description: 'Master in Computational Science with a focus on Data Science and Machine Learning.',
 		location: 'Sweden',

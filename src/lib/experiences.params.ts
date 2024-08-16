@@ -8,8 +8,24 @@ import trilitec from './md/experience/trilitec.md?raw';
 import lhind from './md/experience/lhind.md?raw';
 import dfki from './md/experience/dfki.md?raw';
 import jacek from './md/experience/jacek.md?raw';
+import phd from './md/experience/phd.md?raw';
 
 const MY_EXPERIENCES: Array<Experience> = [
+	{
+		slug: 'phd',
+		company: 'TU Delft',
+		description: phd,
+		contract: ContractType.FullTime,
+		type: 'Doctoral Research',
+		location: 'Delft, Netherlands',
+		period: { from: new Date(2024, 8, 15) },
+		skills: getSkills('python', 'sql', 'postgres', 'qiskit'),
+		name: 'PhD candidate',
+		color: 'blue',
+		links: [],
+		logo: Assets.Delft,
+		shortDescription: 'Doctoral Research in Quantum Data Management and classical simulation of quantum systems'
+	},
 	{
 		slug: 'freelance software-developer',
 		company: 'Self-employed',
@@ -17,7 +33,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.SelfEmployed,
 		type: 'Software Development',
 		location: 'Hamburg, Germany / Bremen, Germany',
-		period: { from: new Date(2022, 9, 1) },
+		period: { from: new Date(2022, 9, 1), to: new Date(2024, 3, 31) },
 		skills: getSkills('angular', 'ts', 'python', 'css', 'html', 'js', 'django', 'sql', 'postgres', 'docker', 'redis', 'celery'),
 		name: 'Freelance Data Scientist / Software Developer',
 		color: 'green',

@@ -84,11 +84,13 @@ const Assets = {
 	ROOT: a('root.png'),
 	Uppsala: a('uppsala.svg'),
 	Bremen: a('bremen.png'),
+	Delft: a('TUDelft_logo.svg'),
 	UKE: a('uke.svg'),
 	OpenGL: a('opengl.svg'),
 	GameDevTV: a('gamedevtv.png'),
 	UnrealEngine: a('unreal.svg'),
-	Blender: a('blender.png')
+	Blender: a('blender.png'),
+	Qiskit: a('Qiskit-logo.png')
 };
 
 export default Assets;
